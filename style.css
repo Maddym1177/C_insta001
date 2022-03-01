@@ -12,6 +12,10 @@ span:active {
     color: yellow;
   }
 
+#POST{
+    padding-top: 55px;
+}
+
   .logo{
       object-fit: contain;
       height: 45px;
@@ -66,7 +70,7 @@ span:active {
     margin-right: 10px;
 }
 
-.ipost{
+.cardBody{
     position: relative;
 }
 
@@ -74,4 +78,6 @@ span:active {
     position: absolute;
     bottom: 0;
     right: 0;
+    display: flex;
+    align-items: flex-end;
 }
